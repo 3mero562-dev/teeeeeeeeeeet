@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cookies Lareen</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+<h1>🍪 Cookies Lareen</h1>
+<p>ألذ كيكة كوكيز والقهوة الباردة</p>
+</header>
+
+<section class="products">
+
+<div class="card">
+<h2>سخان كيكة كوكيز - صغيرة</h2>
+<p>8000 د.ع</p>
+<button onclick="addProduct('كيكة كوكيز صغيرة',8000)">إضافة للسلة</button>
+</div>
+
+<div class="card">
+<h2>سخان كيكة كوكيز - وسط</h2>
+<p>15000 د.ع</p>
+<button onclick="addProduct('كيكة كوكيز وسط',15000)">إضافة للسلة</button>
+</div>
+
+<div class="card">
+<h2>سخان كيكة كوكيز - كبيرة</h2>
+<p>25000 د.ع</p>
+<button onclick="addProduct('كيكة كوكيز كبيرة',25000)">إضافة للسلة</button>
+</div>
+
+<div class="card">
+<h2>آيس أمريكانو</h2>
+<p>3000 د.ع</p>
+<button onclick="addProduct('آيس أمريكانو',3000)">إضافة للسلة</button>
+</div>
+
+<div class="card">
+<h2>آيس لاتيه</h2>
+<p>3000 د.ع</p>
+<button onclick="addProduct('آيس لاتيه',3000)">إضافة للسلة</button>
+</div>
+
+<div class="card">
+<h2>آيس سبانش لاتيه</h2>
+<p>3000 د.ع</p>
+<button onclick="addProduct('آيس سبانش لاتيه',3000)">إضافة للسلة</button>
+</div>
+
+<div class="card">
+<h2>آيس موكا</h2>
+<p>3000 د.ع</p>
+<button onclick="addProduct('آيس موكا',3000)">إضافة للسلة</button>
+</div>
+
+<div class="card">
+<h2>دونات</h2>
+<p>2000 د.ع</p>
+<button onclick="addProduct('دونات',2000)">إضافة للسلة</button>
+</div>
+
+</section>
+
+<section class="order">
+
+<h2>بيانات الطلب</h2>
+
+<input id="name" placeholder="الاسم">
+
+<input id="phone" placeholder="رقم الهاتف">
+
+<input id="address" placeholder="العنوان">
+
+<textarea id="notes" placeholder="ملاحظات"></textarea>
+
+<h3 id="total">المجموع: 0 د.ع</h3>
+
+<button onclick="sendWhatsApp()">إرسال الطلب عبر واتساب</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
